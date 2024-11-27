@@ -1,11 +1,12 @@
+/* Ensure html and body take the full height of the viewport */
 html, body {
-  height: 100%;  
-  margin: 0;     
+  height: 100%;  /* Ensures the page takes the full height of the viewport */
+  margin: 0;     /* Removes default margin */
 }
 
 body {
-  min-height: 100vh;  
-  background-color: black; 
+  min-height: 100vh;  /* Ensures the body takes at least the full viewport height */
+  background-color: black; /* Your background color */
   color: white;
   font-family: 'Poppins', sans-serif;
   display: flex;
@@ -16,8 +17,8 @@ body {
 .container {
   text-align: center;
   position: relative;
-  left: -275px; 
-  z-index: 2; 
+  left: -275px; /* Shift the content 275px to the left */
+  z-index: 2; /* Ensure the content stays on top of the image */
 }
 
 .name {
@@ -67,7 +68,9 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  height: 95vh;
-  z-index: 1; 
-  pointer-events: none; /* Disable any interactions like clicking or dragging */
+  width: auto;
+  height: 100vh;
+  object-fit: fill;
+  z-index: 1;
+  pointer-events: none;
 }
