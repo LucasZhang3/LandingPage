@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  position: relative;
+  background-image: url('back.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+  left: -275px;
+  z-index: 2;
+}
+
+.name {
+  font-size: 4.5rem;
+  margin-bottom: 10px;
+}
+
+.typing {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.cursor {
+  color: white;
+  font-weight: bold;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  font-size: 1.1rem;
+  margin: 0 10px;
+  padding: 10px 18px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, color 0.2s, background-color 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color: black;
+  color: #2DBA4E;
+}
+
+.right-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 95vh;
+  z-index: 1;
+  pointer-events: none;
+}
