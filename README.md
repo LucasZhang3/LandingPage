@@ -1,1 +1,1 @@
-https://lucaszhang3.github.io/LandingPage/
+Basic website: https://lucaszhang3.github.io/LandingPage/
