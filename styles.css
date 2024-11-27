@@ -1,24 +1,23 @@
+html, body {
+  height: 100%;  
+  margin: 0;     
+}
+
 body {
-  background-color: black;
+  min-height: 100vh;  
+  background-color: black; 
   color: white;
-  margin: 0;
   font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 95vh;
-  position: relative;
-  background-image: url('back.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 .container {
   text-align: center;
   position: relative;
-  left: -275px;
-  z-index: 2;
+  left: -275px; 
+  z-index: 2; 
 }
 
 .name {
@@ -69,6 +68,6 @@ body {
   top: 0;
   right: 0;
   height: 95vh;
-  z-index: 1;
-  pointer-events: none;
+  z-index: 1; 
+  pointer-events: none; /* Disable any interactions like clicking or dragging */
 }
