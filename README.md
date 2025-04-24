@@ -1,8 +1,8 @@
 # Landing Page Website
 
-[![HTML](https://img.shields.io/badge/built%20with-HTML-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS](https://img.shields.io/badge/styled%20with-CSS-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
+[![](https://img.shields.io/badge/-HTML-orange)]()
+[![](https://img.shields.io/badge/-CSS-blue)]()
+[![](https://img.shields.io/badge/-JavaScript-yellow)]()
 
 ## Overview
 
