@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const phrases = [
         "Welcome to my portfolio!",
         "欢迎来到我的投资组合!",
-        "¡Bienvenido a mi portafolio!"
     ];
     const typingElement = document.querySelector('.text');
     const projectsButton = document.querySelector('.buttons .btn:nth-child(2)');
@@ -18,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     contactButton.addEventListener('click', () => {
-        window.open("https://discord.gg/34DJJ5xE", "_blank");
+        window.open("", "_blank");
     });
 
     function typeEffect() {
